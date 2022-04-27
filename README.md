@@ -1,4 +1,4 @@
-<p align="center"><a href="https://wpadcenter.com/"><img src="../logo.png" alt="Wpadcenter"></a></p>
+<p align="center"><a href="https://wpadcenter.com/"><img src="logo.png" alt="Wpadcenter"></a></p>
 
 <p align="center">
 <a href="https://wordpress.org/plugins/wpadcenter/"><img src="https://img.shields.io/wordpress/plugin/v/wpadcenter" alt="Latest Stable Version"></a>
