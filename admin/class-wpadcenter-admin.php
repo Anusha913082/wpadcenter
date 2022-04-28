@@ -181,7 +181,7 @@ class Wpadcenter_Admin {
 		);
 		wp_register_style(
 			$this->plugin_name . 'jquery-ui',
-			plugin_dir_url( __FILE__ ) . 'css/jquery-ui' . WPADCENTER_SCRIPT_SUFFIX . '.css',
+			plugin_dir_url( __FILE__ ) . 'css/jquery-ui.css',
 			array(),
 			$this->version,
 			'all'
@@ -2366,7 +2366,6 @@ class Wpadcenter_Admin {
 	 */
 	public function wpadcenter_mascot_on_pages() {
 		$current_screen = get_current_screen();
-
 		if ( empty( $current_screen->post_type ) || 'wpadcenter-ads' !== $current_screen->post_type ) {
 			return;
 		}
