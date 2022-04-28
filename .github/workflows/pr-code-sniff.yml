@@ -1,6 +1,6 @@
 name: Run code sniff on PR
 on:
-  [push,pull_request]
+  pull_request
 jobs:
   test:
     name: Code sniff (PHP 7.4, WP Latest)
